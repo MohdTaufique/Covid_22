@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="#3C3B3A"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#3B79F4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#65489A"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#8BC34A"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#D31818"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#CFC24B"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="197dp" />
+</RelativeLayout>
